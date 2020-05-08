@@ -57,6 +57,7 @@ class KMP
 				cout << "this->find_s.size() == 0 || this->base_s.size() == 0!" << endl;
 				return;
 			}
+			cout << "print_all_get_item() size: " << all_get_num.size() << endl;
 			for(auto item : all_get_num)
 			{
 				cout << "postation: " << item << endl;
